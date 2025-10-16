@@ -5,3 +5,10 @@
 - ffmpeg
 - faad
 - CUDA/cuDNN
+
+## Launch instruction
+```sh
+uv sync
+
+
+```
