@@ -1,0 +1,18 @@
+[project]
+name = "ai-video-summarizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "pydantic-ai>=1.1.0",
+    "pydantic-settings>=2.11.0",
+    "whisperx==3.3.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.2",
+    "ruff>=0.14.0",
+]
